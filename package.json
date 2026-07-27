@@ -4,23 +4,43 @@
   "description": "Agent-friendly command line interface for the Pylon API.",
   "keywords": [
     "pylon",
+    "pylon-api",
     "cli",
+    "command-line",
     "api",
+    "api-client",
+    "openapi",
+    "typescript",
     "agent",
+    "ai-agents",
+    "automation",
+    "customer-support",
     "support"
   ],
   "license": "MIT",
+  "author": "Takt <alex@takt.io>",
+  "homepage": "https://github.com/takt-corp/pylon-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takt-corp/pylon-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/takt-corp/pylon-cli/issues"
+  },
   "type": "module",
   "bin": {
     "pylon": "dist/pylon.js"
   },
   "files": [
     "dist",
-    "openapi.json",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "packageManager": "pnpm@11.9.0",
   "scripts": {
