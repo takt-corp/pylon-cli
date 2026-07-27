@@ -11,7 +11,7 @@ export default defineConfig({
   outDir: 'dist',
   clean: true,
   dts: true,
-  sourcemap: true,
+  sourcemap: false,
   // Emit a shebang so the published bin is directly executable.
   banner: {
     js: '#!/usr/bin/env node',
